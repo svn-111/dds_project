@@ -2,11 +2,11 @@
 drop database link server;
 
 create database link server
- connect to system identified by "123456"
+ connect to system identified by "12345"
  using '(DESCRIPTION =
        (ADDRESS_LIST =
          (ADDRESS = (PROTOCOL = TCP)
-		 (HOST = XXX.XXX.XX.X)
+		 (HOST = 192.168.0.105)
 		 (PORT = 1521))
        )
        (CONNECT_DATA =
