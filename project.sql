@@ -20,11 +20,3 @@ BEGIN
 end;
 /
 
-DECLARE
-  
-BEGIN
-
-	register_user('Atiq', 'Dhaka', '1');
-	
-END;
-/
