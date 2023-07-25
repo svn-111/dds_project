@@ -6,7 +6,7 @@ create database link server
  using '(DESCRIPTION =
        (ADDRESS_LIST =
          (ADDRESS = (PROTOCOL = TCP)
-		 (HOST = 192.168.0.105)
+		 (HOST = 192.168.3.89)
 		 (PORT = 1521))
        )
        (CONNECT_DATA =
